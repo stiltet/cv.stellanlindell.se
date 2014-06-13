@@ -1,0 +1,158 @@
+@CHARSET "windows-1252";
+
+body  {
+  background-color: #ff4e00;
+  color: #000000;
+  font: 12pt Helvetica;
+  margin: 0px;
+  padding: 0px;
+}
+div#menu  {
+  width:100%;
+  height:110px;
+  color:#ff4e00;
+  background-color:rgba(51,51,51,0.8);
+  font-size: 9pt;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+  display:inline;
+  position: fixed;
+  margin:0px;
+  z-index:3;
+}
+div#menu div#questionmarkPerson {
+  width:145px;
+  height:110px;
+  background:url('../img/3d-questionmark-person-small.png') no-repeat;
+  border: 0px;
+  margin-left:10%;
+}
+div#menu nav  {
+  display:inline;
+}
+div#menu nav ul {
+  display:inline;
+}
+div#menu nav ul li {
+  display: inline;
+  margin-left: 1%;
+}
+div.bg {
+  width:100%;
+  min-height:100%;
+  background:url('../img/skola-1920x1137.png') repeat;
+  margin:0px;
+  padding:0px;
+  z-index:1;
+}
+div.section  {
+  width:100%;
+  height:40%;
+  background:#ffffff;
+  text-align:center;
+  float:left;
+  margin:10% 0%;
+  z-index:2;
+}
+div#foto  {
+}
+div#content  {
+}
+div#citatBox  {
+  text-align: center;
+}
+footer  {
+  width:100%;
+  height:auto;
+  color:#ff4e00;;
+  background-color:rgba(51,51,51,0.8);
+  font: 12pt Helvetica;
+  text-align: center;
+  clear:both;
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  margin: 0px;
+}
+h1, h2, h3  {
+  color: #ff4e00;
+  font-family: sans serif;
+  text-transform: uppercase;
+}
+h1  {
+  color: #000000;
+  font-size: 32pt;
+}
+h2  {
+  font-size: 16pt;
+  text-align: center;
+}
+h3  {
+  font-size: 11pt;
+  text-align: center;
+}
+p  {
+}
+p#kontaktHeader  {
+  color: #ff4e00;
+  font-size: 9pt;
+  text-align: center;
+}
+p#kontaktHeader a  {
+  color: #ff4e00;
+  font-size: 9pt;
+}
+p#kontaktHeader a:hover  {
+  color: #cc2c00;
+  text-decoration: underline;
+}
+a  {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover  {
+  color: #444444;
+  text-decoration: underline;
+  font-weight: bold;
+}
+ol  {
+  margin: 0%;
+  padding-left: 10%;
+}
+blockquote  {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+}
+q  {
+  color: #ff4e00;
+}
+table  {
+  vertical-align: bottom;
+}
+table td:first-child  {
+  width: 100px;
+}
+th  {
+  color: #ff4e00;
+  text-align: left;
+  height: 30px;
+}
+.first  {
+  color: #ff4e00;
+  font-size: 22pt;
+  font-weight: bold;
+}
+.clear  {
+  clear:both;
+}
+.center  {
+  text-align:center;
+}
+.italic  {
+  font-style: italic;
+}
+.bold  {
+  font-weight: bold;
+}

@@ -1,0 +1,174 @@
+@CHARSET "ISO-8859-1";
+
+body  {
+  background-color: #bbbbbb;
+  color: #000000;
+  font-size: 11pt;
+  font-family: serif;
+  margin: 3% 13%;
+}
+div#page  {
+  height: 100%;
+  background: url('../img/bg.png') #ffffff repeat-y right;
+  border: 2px solid #000000;
+  border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  padding: 2%;
+}
+div#nav  {
+  min-width:12%;
+  background-color: #bbbbbb;
+  font-size: 9pt;
+  text-align: left;
+  border: 1px solid #000000;
+  border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  float: right;
+  /*position: fixed;*/
+  right:1%;
+  margin: 20.7% 0% 10% 1%;
+  padding: 1%;
+}
+div#foto  {
+  float:right;
+  margin: 3% 7% 1% 2%;
+  padding: 0%;
+}
+div#content  {
+  margin-right: 27%;
+}
+div#citatBox  {
+  text-align: center;
+}
+div#kontakt  {
+  background-color: #ff0000;
+  width: 100px;
+  float: left;
+  position: fixed;
+}
+h1, h2, h3  {
+  color: #ff4e00;
+  font-family: sans serif;
+  text-transform: uppercase;
+}
+h1  {
+        color: #000000;
+  font-size: 32pt;
+  margin: 0% 0% 0.5% 0%;
+}
+h2  {
+  font-size: 16pt;
+  text-align: center;
+  margin: 4% 1% 0% 0%;
+}
+h2.PI  {
+  margin: 5.2% 10% 1% 0%;
+}
+h3  {
+  font-size: 11pt;
+  text-align: center;
+}
+h3#CV  {
+  color: #ff4e00;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  margin: 2% 0% 0% 0%;
+}
+p  {
+  margin: 0% 7% 1% 2%;
+}
+p.PI  {
+  margin: 0% 2% 2% 2%;
+}
+p#kontaktHeader  {
+  color: #ff4e00;
+  font-size: 9pt;
+  text-align: center;
+  margin: 0% 0% 2% 0%;
+}
+p#kontaktHeader a  {
+  color: #ff4e00;
+  font-size: 9pt;
+}
+p#kontaktHeader a:hover  {
+  color: #cc2c00;
+  text-decoration: underline;
+}
+a  {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover  {
+  color: #444444;
+  text-decoration: underline;
+  font-weight: bold;
+}
+ol  {
+  margin: 0%;
+  padding-left: 10%;
+}
+blockquote  {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  margin: 1% 5% 3% 0%;
+}
+q  {
+  color: #ff4e00;
+}
+table  {
+  margin: 1% 7% 5% 1%;
+  vertical-align: bottom;
+}
+table td:first-child  {
+  width: 100px;
+}
+th  {
+  color: #ff4e00;
+  text-align: left;
+  height: 30px;
+}
+hr  {
+  color: #ff4e00;
+  background-color: #ff4e00;
+  border: 0px;
+  height: 3px;
+  margin-top:12px;
+}
+.betyg  {
+  height: 30px;
+  vertical-align: middle;
+}
+.betygTab  {
+  margin-left: 200px;
+}
+.betygTabPW  {
+  margin-left: 60px;
+}
+.betygTabD  {
+  margin-left: 180px;
+}
+.betygTabF  {
+  margin-left: 210px;
+}
+.first  {
+  color: #ff4e00;
+  font-size: 22pt;
+  font-weight: bold;
+}
+.clear  {
+  clear:both;
+}
+.center  {
+  text-align:center;
+}
+.italic  {
+  font-style: italic;
+}
+.bold  {
+  font-weight: bold;
+}
