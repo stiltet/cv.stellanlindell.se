@@ -9,5 +9,3 @@
  *
  * Copyright © | Elicit AB - Effektiva IT-lösningar.™ | All rights reserved.
  */
-
-get_template_part()
